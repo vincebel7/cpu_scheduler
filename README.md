@@ -7,11 +7,17 @@ p2stdin_a.txt contains a list of process arrivals and display requests
 p2stdin_b.txt contains a list of process arrivals, IO arrivals, and display requests
 
 external:
+
 A - indicates process arrival
+
 D - indicates display request
+
 I - indicates IO arrival
 
 internal:
+
 C - indicates IO completion
+
 E - indicates quantum expiration on processor
+
 T - indicates successful process termination
